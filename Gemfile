@@ -4,6 +4,7 @@ gem 'pry-rails'
 
 gem 'geocoder'
 gem 'gmaps4rails'
+gem 'font-awesome-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'

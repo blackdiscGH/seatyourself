@@ -16,9 +16,11 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
 
 $bgandlinks: #F9FFC5;
-$navbarandborder: #A23D7C;
+$navbarandborder: #C80000;
 
 html {
 	font-size: 100%;
@@ -26,7 +28,8 @@ html {
 }
 
 body {
-	background-color: $bgandlinks;
+	background-color: white;
+	font-color: gray;
 
 	h1 {
 		font-size: 24px;
@@ -82,7 +85,7 @@ body {
 				padding-top: 2%;
 				padding-bottom: 1.5%;
 				border: 2px solid $navbarandborder;
-				border-radius: 20px;
+				border-radius: 10px;
 
 				p {
 					font-size: 95%;

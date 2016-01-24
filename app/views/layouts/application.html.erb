@@ -10,7 +10,7 @@
 <div class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="logo" class="col-xs-3">
-			<p>Seat Yourself</p>
+			<p>Seat Yourself <i class="fa fa-cutlery "></i></p>
 		</div>
 		<% if current_user %>
 			<div class="navmenu" class="col-xs-9">
@@ -26,8 +26,12 @@
 			<div class="navmenu" class="col-xs-9">
 				<p>Welcome to Seat Yourself</p>
 				<p>
-					<%= link_to "Sign Up", signup_path %>
-					<%= link_to "Log in", login_path %>
+					<%= link_to signup_path do %>
+						<i class="fa fa-user-plus"></i> Sign up
+					<% end %>
+					<%= link_to login_path do %>
+						<i class="fa fa-sign-in"></i> Log in 
+					<% end %>
 				</p>
 			</div>
 		<% end %>
